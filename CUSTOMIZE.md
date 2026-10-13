@@ -78,3 +78,14 @@ dipakai untuk akun lain, ganti string tersebut.
 Default branch repo ini (`main`) adalah yang dibaca GitHub untuk halaman profil.
 Setelah perubahan di-merge ke `main`, halaman profil langsung ter-update
 (mungkin perlu hard refresh). Tema di palet ini: ungu `#8B5CF6` → cyan `#22D3EE`.
+
+> **Catatan:** saat README ini dibuat, repo masih kosong sehingga GitHub memakai
+> branch `cline/e9hqr43a` sebagai default branch. Branch `main` sudah dibuat dengan
+> isi yang sama. Ubah default branch ke `main` lewat
+> **Settings → General → Default branch**, atau dari terminal:
+>
+> ```bash
+> gh repo edit --default-branch main
+> ```
+>
+> Selama salah satu branch tersebut tetap jadi default, halaman profil tetap tampil normal.
